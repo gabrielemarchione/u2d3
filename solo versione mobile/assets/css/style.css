@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+
+    .gigaContainer {
+        width: 90%;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .nav {
+        background-color: #FEF7E2;
+        width: 100%;
+        padding: 20px;
+        border-radius: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo-honey {
+        width: 40px;
+    }
+
+    #logo-btn {
+        padding: 35px;
+        background-color: #FCDF7F;
+        border-radius: 60px;
+        color: #732103;
+        font-weight: bold;
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .nav-btns {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #honey, #trace, #facilities, #contacts {
+        background-color: #FCDF7F;
+        border-radius: 30px;
+        color: #732103;
+        font-weight: bold;
+        height: 40px;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    h1 {
+        color: #732103;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+    }
+
+    .img-card img {
+        width: 100%;
+        border-radius: 50px 50px 0 0;
+
+    }
+
+    .card {
+        background-color: #FEF7E2;
+        color: #771D01;
+        border-radius: 50px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .description-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .description-text {
+        width: 45%;
+        line-height: 17px;
+    }
+
+    .description-text p:first-child {
+        font-weight: bold;
+    }
+
+    .price {
+        width: 45%;
+    }
+
+    .add-to-cart {
+        padding: 10px;
+    }
+
+    .add-to-cart button {
+        background-color: #FCDF7F;
+        border-radius: 30px;
+        color: #732103;
+        font-weight: bold;
+        width: 60%;
+        padding: 8px;
+    }
+
+ 
+    .latest-news-body {
+        background-color: #FEF7E2;
+        border-radius: 30px;
+        padding: 25px;
+        text-align: left;
+    }
+
+    .latest-news-body h4 {
+        margin-bottom: 10px;
+    }
+
+    .latest-news-body img {
+        width: 100%;
+    }
+
+    .latest-news-body-img {
+        margin-top: 20px;
+    }
+
+
+}
